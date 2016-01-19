@@ -1,0 +1,35 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MongoDBSample Console Application",
+  "authors": [ "czifro" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+
+  },
+
+  "commands": {
+    "MongoDBSample": "MongoDBSample"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "MongoDB.Driver": "2.2.2",
+        "MongoDB.Bson": "2.2.2"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Collections": "4.0.10-beta-23019",
+        "System.Console": "4.0.0-beta-23019",
+        "System.Linq": "4.0.0-beta-23019",
+        "System.Threading": "4.0.10-beta-23019",
+        "Microsoft.CSharp": "4.0.0-beta-23019",
+        "Microsoft.Framework.Configuration.Json": "1.0.0-beta7"
+      }
+    }
+  }
+}
